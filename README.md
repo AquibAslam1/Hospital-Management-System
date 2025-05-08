@@ -62,7 +62,10 @@
   <h2>📄 License</h2>
 
   <p>
-    This project is open-source and available under the <a href="LICENSE">MIT License</a>.
+
+
+This project is proprietary and all rights are reserved. Unauthorized use, distribution, or modification is strictly prohibited without explicit permission from the author.
+
   </p>
 
 </body>
