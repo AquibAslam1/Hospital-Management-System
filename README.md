@@ -1,46 +1,69 @@
-# 🏥 **Hospital Management System**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ 
+</head>
+<body>
 
-**A comprehensive web-based **Hospital Management System** designed to streamline and automate core hospital operations.**
+  <h1>🏥 Hospital Management System</h1>
 
-A comprehensive web-based Hospital Management System designed to streamline and automate core hospital operations. This system provides modules for managing OPD Queuing, Bed Availability, Patient Admissions, Inventory, Doctor Scheduling, Ambulance Services, Blood Bank, and more. It also includes systems for Patient Referral, Staff Training, and Digital Records Management to improve hospital workflow and patient care.
+  <p>
+    A comprehensive web-based <strong>Hospital Management System</strong> designed to streamline and automate core hospital operations. This system provides modules for managing <strong>OPD Queuing</strong>, <strong>Bed Availability</strong>, <strong>Patient Admissions</strong>, <strong>Inventory</strong>, <strong>Doctor Scheduling</strong>, <strong>Ambulance Services</strong>, <strong>Blood Bank</strong>, and more. It also includes systems for <strong>Patient Referral</strong>, <strong>Staff Training</strong>, and <strong>Digital Records Management</strong> to improve hospital workflow and patient care.
+  </p>
 
-🚀 Features
+  <h2>🚀 Features</h2>
 
-**🩺 OPD Queuing Models:**
-Efficient patient queuing system for Outpatient Department to reduce wait time and manage consultations.
+  <ul>
+    <li>
+      <strong>🩺 OPD Queuing Models:</strong> Efficient patient queuing system for the Outpatient Department to reduce wait time and manage consultations.
+    </li>
+    <li>
+      <strong>🛏️ Bed Availability Tracking:</strong> Real-time bed allocation and availability monitoring system to optimize hospital capacity usage.
+    </li>
+    <li>
+      <strong>📝 Patient Admissions & Discharge:</strong> Simplified forms and tracking for admitting and discharging patients with automated history logging.
+    </li>
+    <li>
+      <strong>📦 Inventory Management:</strong> Manage medicines, equipment, and medical supplies with stock level alerts and expiry tracking.
+    </li>
+    <li>
+      <strong>🔁 Patient Referral System:</strong> Allows smooth patient transfers and referrals between departments or to external facilities.
+    </li>
+    <li>
+      <strong>🎓 Staff Training Module:</strong> Interactive learning modules for staff skill development and compliance training.
+    </li>
+    <li>
+      <strong>🧑‍⚕️ Doctor's Scheduling:</strong> Smart scheduler for managing doctor availability, shifts, and appointment booking.
+    </li>
+    <li>
+      <strong>🩸 Blood Bank Management:</strong> Monitors blood availability, donor records, and blood request processing.
+    </li>
+    <li>
+      <strong>🚑 Ambulance Management:</strong> Track and manage ambulance availability, location, and patient transport requests.
+    </li>
+  </ul>
 
-**🛏️ Bed Availability Tracking:**
-Real-time bed allocation and availability monitoring system to optimize hospital capacity usage.
+  <h2>💻 Tech Stack</h2>
 
-**📝 Patient Admissions & Discharge:**
-Simplified forms and tracking for admitting and discharging patients with automated history logging.
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Backend & Database:</strong> Firebase Realtime Database</li>
+    <li><strong>Tools & Services:</strong> Firebase Authentication, Firebase Hosting</li>
+  </ul>
 
-**📦 Inventory Management:**
-Manage medicines, equipment, and medical supplies with stock level alerts and expiry tracking.
+ 
+  <h2>🤝 Contributing</h2>
 
-**🔁 Patient Referral System:**
-Allows smooth patient transfers and referrals between departments or to external facilities.
+  <p>
+    Contributions are welcome! Please open an issue to discuss what you would like to change or add.
+  </p>
 
-**🎓 Staff Training Module:**
-Interactive learning modules for staff skill development and compliance training.
+  <h2>📄 License</h2>
 
-**🧑‍⚕️ Doctor's Scheduling:**
-Smart scheduler for managing doctor availability, shifts, and appointment booking.
+  <p>
+    This project is open-source and available under the <a href="LICENSE">MIT License</a>.
+  </p>
 
-**🩸 Blood Bank Management:**
-Monitors blood availability, donor records, and blood request processing.
-
-**🚑 Ambulance Management:**
-Track and manage ambulance availability, location, and patient transport requests.
-
-**💻 Tech Stack:**
-HTML,
-CSS,
-JAVASCRIPT,
-
-**Databases :**
-Firebase Realtime Database
-
-**Tools :**
-Firebase Services
-
+</body>
+</html>
