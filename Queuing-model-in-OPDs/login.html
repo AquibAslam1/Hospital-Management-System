@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="shortcut icon" type="jpg" href="fevicon.png">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+      <form id="loginForm">
+            <h2>Login</h2>
+            <label for="username">E-mail</label>
+            <input type="email" id="email" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button id="signin" type="submit">SignIn</button> 
+            
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:5px"> Remember me
+            </label>
+              
+              <p>By creating an account you agree to our</p>
+              <a href="terms_and_condition.html" style="color:dodgerblue">Terms & Privacy</a>
+          
+        </form>
+    </div>
+    <script type="module" src="login.js"></script>
+</body>
+</html>

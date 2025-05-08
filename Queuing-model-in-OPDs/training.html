@@ -1,0 +1,74 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Training for Hospital Staff</title>
+    <link rel="shortcut icon" type="jpg" href="fevicon.png">
+    <link rel="stylesheet" href="training.css">
+</head>
+<body>
+    <header>
+        <h1>VR Training Portal for Hospital Staff</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="active" data-section="welcome">Welcome</a></li>
+            <li><a href="#" data-section="modules">Training Modules</a></li>
+            <li><a href="#" data-section="progress">Your Progress</a></li>
+            <li><a href="#" data-section="schedule">Schedule Session</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome" class="active">
+            <h2>Welcome to VR Training</h2>
+            <p>Experience immersive learning tailored for hospital environments.</p>
+        </section>
+        <section id="modules">
+            <h2>Available Training Modules</h2>
+            <div class="module-grid">
+                <div class="module-card">
+                    <h3>Emergency Response</h3>
+                    <p>Learn to handle critical situations in ER.</p>
+                    <button>
+                        <a href="https://youtu.be/V8xROE56sz4?si=pWYBvAV21XMAHr2x">Start Training</a></button>
+                </div>
+                <div class="module-card">
+                    <h3>Patient care</h3>
+                    <p>Improve bedside manner and care routines.</p>
+                    <button>
+                        <a href="https://youtu.be/e9U-r9D6oVw?si=E69A8lS9nNqIuzu1">Start Training</a></button>
+                </div>
+                <div class="module-card">
+                    <h3>Ethical and Legal Considerations</h3>
+                    <p>Training staff on how to properly obtain informed consent from patients.</p>
+                    <button> 
+                        <a href="https://youtu.be/VJ_s51QGbg8?si=PNKlRIwTrTBkt6dG">Start Training</a></button>
+                </div>
+            </div>
+        </section>
+        <section id="progress">
+            <h2>Your Training Progress</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;">60%</div>
+            </div>
+            <p>You've completed 3 out of 5 required modules.</p>
+        </section>
+        <section id="schedule">
+            <h2>Schedule a VR Training Session</h2>
+            <form id="schedule-form">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" required>
+                <label for="time">Select Time:</label>
+                <input type="time" id="time" required>
+                <button type="submit">Book Session</button>
+            </form>
+        </section>
+    </main>
+    <!-- <footer>
+        <p>&copy; 2024 Hospital VR Training Center</p>
+    </footer> -->
+    <script src="training.js"></script>
+</body>
+</html>

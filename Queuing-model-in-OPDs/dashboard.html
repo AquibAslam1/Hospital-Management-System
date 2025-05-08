@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedEase Dashboard</title>
+    <link rel="shortcut icon" type="jpg" href="fevicon.png">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="shortcut icon" type="jpg" href="fevicon.png">
+</head>
+<body>
+    <nav class="sidebar">
+        <!-- Favicon inserted above the title -->
+        <img src="fevicon.png" alt="Favicon" class="favicon">
+        <h2 class="sidebar-title">Dashboard</h2>
+        <button class="nav-button" data-section="opd-queue" onclick="redirect_to_que()">OPD Queue</button>
+        <button class="nav-button" data-section="add-patient" onclick="redirect_to_add_patient()">Add Patient</button>
+        <button class="nav-button" data-section="bed-availability" onclick="redirect_to_bed_availability()">Bed Availability</button>
+        <button class="nav-button" data-section="inventory" onclick="redirect_to_inventory()">Inventory</button>
+        <button class="nav-button" data-section="refer-patient" onclick="redirect_to_patient_refer()">Refer Patient</button>
+        <button class="nav-button" data-section="staff-training" onclick="redirect_to_training()">Staff Training</button>
+        <button class="nav-button" data-section="schedule" onclick="redirect_to_schedule()">Schedule</button>
+        <button class="nav-button" data-section="blood-bank" onclick="redirect_to_blood_bank()">Blood Bank</button>
+        <button class="nav-button" data-section="ambulance" onclick="redirect_to_ambulance()">Ambulance</button>
+        <button class="nav-button logout-button" data-section="logout" onclick="logout()">Logout</button>
+    </nav>
+    
+    <div class="main-content">
+        <div class="welcome-section" id="welcome">
+            <h1>Welcome to MedEase</h1>
+            <p>Manage your hospital's operations seamlessly with real-time data and insights.</p>
+            <img src="dash_bg.png" alt="Hospital Image">
+        </div>
+
+        <div class="section" id="opd-queue">
+            <h2>OPD Queue Management</h2>
+            <p>Efficiently manage the outpatient department queue with real-time updates. Track patient waiting times, manage appointments, and streamline patient flow.</p>
+            <img src="opd_queue.png" alt="OPD Queue Image">
+        </div>
+
+        <div class="section" id="add-patient">
+            <h2>Add Patient</h2>
+            <p>Quickly add new patients to the system with a user-friendly interface. Capture essential details and assign the appropriate queue status.</p>
+            <img src="add_patient.png" alt="Add Patient Image">
+        </div>
+
+        <div class="section" id="bed-availability">
+            <h2>Bed Availability</h2>
+            <p>Monitor the availability of beds in real-time. Manage bed assignments and ensure optimal usage of hospital resources.</p>
+            <img src="bed_availability.png" alt="Bed Availability Image">
+        </div>
+
+        <div class="section" id="inventory">
+            <h2>Inventory Management</h2>
+            <p>Keep track of medical supplies, equipment, and other inventory items. Maintain stock levels and avoid shortages.</p>
+            <img src="inventory.png" alt="Inventory Management Image">
+        </div>
+
+        <div class="section" id="refer-patient">
+            <h2>Refer Patient</h2>
+            <p>Handle patient referrals seamlessly. Record referral details and track the status of referrals to ensure proper follow-up.</p>
+            <img src="refer.png" alt="Refer Patient Image">
+        </div>
+
+        <div class="section" id="staff-training">
+            <h2>Staff Training</h2>
+            <p>Organize and manage staff training programs. Track training schedules and ensure all staff members are up-to-date with necessary skills.</p>
+            <img src="stafftrain.png" alt="Staff Training Image">
+        </div>
+
+        <div class="section" id="schedule">
+            <h2>Schedule</h2>
+            <p>Plan and manage hospital schedules. Coordinate appointments, shifts, and other operational activities to ensure smooth operations.</p>
+            <img src="schedue.png" alt="Schedule Image">
+        </div>
+
+        <div class="section" id="blood-bank">
+            <h2>Blood Bank</h2>
+            <p>Oversee blood bank operations, including inventory management and donor tracking. Ensure a constant supply of blood for patients in need.</p>
+            <img src="blood_bank.png" alt="Blood Bank Image">
+        </div>
+
+        <div class="section" id="ambulance">
+            <h2>Ambulance</h2>
+            <p>Monitor ambulance availability and manage dispatch for emergency patient transfers. Ensure timely coordination for efficient response to critical situations.</p>
+            <img src="ambulance.jpg.png" alt="Ambulance Image">
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 Healthcare Dashboard. All rights reserved.</p>
+            <div class="dashboard-options">
+                <a href="#welcome">Home</a>
+                <a href="#opd-queue">OPD Queue</a>
+                <a href="#add-patient">Add Patient</a>
+                <a href="#bed-availability">Bed Availability</a>
+                <a href="#inventory">Inventory</a>
+                <a href="#refer-patient">Refer Patient</a>
+                <a href="#staff-training">Staff Training</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#blood-bank">Blood Bank</a>
+                <a href="#ambulance">Ambulance</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
+

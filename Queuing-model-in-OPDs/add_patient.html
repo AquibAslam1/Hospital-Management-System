@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add_patient.css">
+    <link rel="shortcut icon" type="jpg" href="fevicon.png">
+    <title>Add Patient</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <div class="patient-form">
+                <div class="row">
+                    <div class="form-field col-md-6">
+                        <input type="text" id="name" class="input-text" name="name" placeholder="Name">
+                    </div>
+
+                    <div class="form-field col-md-6">
+                        <input type="text" id="phone_num" class="input-text" name="phone_num" placeholder="Phone no.">
+                    </div>
+
+                    <div class="form-field col-md-6">
+                        <input type="text" id="patient_relative_name" class="input-text" name="patient_relative_name" placeholder="Relative's name">
+                    </div>
+
+                    <div class="form-field col-md-6">
+                        <input type="text" id="patient_relative_contact" class="input-text" name="patient_relative_contact" placeholder="Relative's contact">
+                    </div>
+
+                    <div class="form-field col-md-12">
+                        <input type="text" id="address" class="input-text" name="address" placeholder="Address">
+                    </div>
+
+                    <div class="form-field col-md-6" style="padding-bottom: 4px;">
+                        <input type="text" id="prior_ailments" class="form-control input-text mb-0 p-0" style="outline:none" name="prior_ailments" placeholder="Prior ailments if any, e.g., Diabetes, Thyroid">
+                    </div>
+
+                    <div class="form-field col-md-6">
+                        <input type="text" id="bed_num" class="input-text" name="bed_num" placeholder="Bed Name (e.g., A1)">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-field col-md-6">
+                        <input type="date" id="dob" class="input-text" name="dob">
+                    </div>
+
+                    <div class="form-field col-md-6">
+                        <select class="input-text" name="status" id="status">
+                            <option value="Critical">Critical</option>
+                            <option value="Recovering">Recovering</option>
+                            <option value="Recovered">Recovered</option>
+                            <option value="Deceased">Deceased</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field col-md-6">
+                        <select class="input-text" name="doctor" id="doctor">
+                            <option value="Dr. Smith">Dr. Smith</option>
+                            <option value="Dr. Johnson">Dr. Johnson</option>
+                            <option value="Dr. Williams">Dr. Williams</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="patient-form row d-flex">
+                    <div class="symptoms row">
+                        <div class="symptoms-label">Symptoms</div><br>
+                        
+                        <div class="common-symptoms col-md-12">
+                            <label class="symptom-type">Enter Symptoms Manually</label><br>
+                            <textarea id="symptoms" class="input-text" rows="4" placeholder="Enter symptoms separated by commas (e.g., Fever, Dry Cough, Tiredness)"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="btn1" type="submit">Add Patient</button>
+        </form>
+    </div>
+
+    <div id="patient-info">
+        <h2>Patient Information</h2>
+        <table id="patient-table" border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Relative's Name</th>
+                    <th>Relative's Contact</th>
+                    <th>Address</th>
+                    <th>Prior Ailments</th>
+                    <th>Bed Number</th>
+                    <th>Date of Birth</th>
+                    <th>Status</th>
+                    <th>Doctor</th>
+                    <th>Symptoms</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script type="module" src="add_patient.js"></script>
+</body>
+</html>

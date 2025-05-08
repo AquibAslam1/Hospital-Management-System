@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.sidebar {
+    width: 250px;
+    background-color: #015d8f;
+    color: #ecf0f1;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+/* .nav-button {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    padding: 15px;
+    text-align: centre;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 1px solid #34495e;
+    transition: background-color 0.3s;
+}
+.nav-button:hover {
+    background-color: #34495e;
+} */
+
+.nav-button {
+    background-color: #ffffff;
+    border: none;
+    color: #114e86;
+    padding: 15px;
+    margin: 12px ;
+    margin-bottom: 2px;
+    cursor: pointer;
+    width: 90%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+    background-color: #609ba7;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    overflow-y: auto;
+    height: calc(100vh - 60px); /* Adjust height to leave space for footer */
+    background-color: #ecf0f1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push the footer to the bottom */
+}
+.section {
+    margin-bottom: 40px;
+    text-align: center; /* Center-aligns text inside the section */
+}
+.section h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+.section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+}
+.primary-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ecf0f1;
+    background-color: #457886;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.primary-button:hover {
+    background-color: #34495e;
+}
+
+/* Styles to make images circular */
+.section img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensure height matches width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    display: block; /* Removes inline spacing */
+    margin: 20px auto; /* Center the image horizontally */
+}
+
+/* Styles for the footer section */
+.footer {
+    background-color: #3576b8;
+    color: #ecf0f1;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer .dashboard-options {
+    margin-top: 10px;
+}
+.footer .dashboard-options a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+.footer .dashboard-options a:hover {
+    text-decoration: underline;
+}
+
+/* Center-align text in welcome section */
+.welcome-section {
+    text-align: center; /* Center-aligns the text */
+    padding: 20px;
+    background-color: #015d8f;
+    color: #ecf0f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.welcome-section h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.welcome-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block; /* Ensures the image is centered */
+}
+
+.favicon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Add extra margin below the Ambulance button */
+.nav-button:last-of-type {
+    margin-bottom: 40px; /* Increase this value for more space */
+}
+
+.logout-button {
+    background-color: #ff4c4c; /* Red color */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+
+
