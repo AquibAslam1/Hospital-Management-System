@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <h1>🏥 Hospital Management System</h1>
+  <h1>🏥HospEase – Hospital Management System</h1>
 
   <p>
     A comprehensive web-based <strong>Hospital Management System</strong> designed to streamline and automate core hospital operations. This system provides modules for managing <strong>OPD Queuing</strong>, <strong>Bed Availability</strong>, <strong>Patient Admissions</strong>, <strong>Inventory</strong>, <strong>Doctor Scheduling</strong>, <strong>Ambulance Services</strong>, <strong>Blood Bank</strong>, and more. It also includes systems for <strong>Patient Referral</strong>, <strong>Staff Training</strong>, and <strong>Digital Records Management</strong> to improve hospital workflow and patient care.
